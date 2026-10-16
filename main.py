@@ -5,13 +5,14 @@ def show_menu():
     print("1. Cek Informasi Sistem Dasar")
     print("2. Cek Kapasitas & Sisa Disk")
     print("3. DNS Reconnaissance (Cari IP Target)")
+    print("4. Ekspor Laporan Sistem ke TXT")
     print("0. Keluar")
     print("======================================")
 
 while True:
     show_menu()
     # Validasi input dengan .strip() agar spasi tidak membuat program error
-    pilihan = input("Pilih menu (0-3): ").strip()
+    pilihan = input("Pilih menu (0-4): ").strip()
 
     if pilihan == '1':
         os.system('python system_info.py')
@@ -25,4 +26,4 @@ while True:
         print("[+] Keluar dari toolkit. Terima kasih!")
         break
     else:
-        print("[-] Pilihan tidak valid. Silakan ketik angka 0, 1, 2, atau 3.")
+        print("[-] Pilihan tidak valid. Silakan ketik angka 0, 1, 2, 3, atau 4.")
