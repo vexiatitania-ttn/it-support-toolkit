@@ -19,6 +19,8 @@ while True:
         os.system('python disk_info.py')
     elif pilihan == '3':
         os.system('python network_recon.py')
+    elif pilihan == '4':
+        os.system('python export_report.py')
     elif pilihan == '0':
         print("[+] Keluar dari toolkit. Terima kasih!")
         break
