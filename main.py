@@ -1,7 +1,7 @@
 import os
 
 def show_menu():
-    print("\n=== 🛠️ IT Support & Recon Toolkit ===")
+    print("\n=== IT Support & Recon Toolkit ===")
     print("1. Cek Informasi Sistem Dasar")
     print("2. Cek Kapasitas & Sisa Disk")
     print("3. DNS Reconnaissance (Cari IP Target)")
