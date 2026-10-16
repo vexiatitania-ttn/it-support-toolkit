@@ -1,9 +1,6 @@
-# it-support-toolkit
-A Python learning project for basic IT support and system diagnostics.
 ## Usage
-* Open your terminal and run the following command:
-`python system_info.py`
-* Run the storage diagnostics script:`
-`python disk_info.py`
-* To run the DNS reconnaissance tool:
-`python network_recon.py`
+
+To run the interactive toolkit menu, execute the main script:
+`python main.py`
+
+From the menu, you can navigate to System Info, Disk Diagnostics, or DNS Reconnaissance.
