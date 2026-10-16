@@ -18,3 +18,5 @@ This project was developed as part of a continuous learning portfolio aimed at b
 1. Clone this repository to your local machine:
    ```bash
    git clone [https://github.com/vexiatitania-ttn/it-support-toolkit.git](https://github.com/vexiatitania-ttn/it-support-toolkit.git)
+
+![Tampilan Toolkit](screenshot.png)
